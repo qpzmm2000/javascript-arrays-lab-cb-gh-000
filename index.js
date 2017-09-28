@@ -5,6 +5,6 @@ function destructivelyAppendKitten(name){
   kittens.push(name)
 }
 
-destructivelyPrependKitten = () => {
+destructivelyPrependKitten = (name) => {
   kittens.unshift(name)
 }
